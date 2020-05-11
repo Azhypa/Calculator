@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Taxi</string>
+    <string name="number">Telephone number</string>
+    <string name="name">Name</string>
+    <string name="surname">Surname</string>
+    <string name="register">Registration</string>
+    <string name="log_in">Log In</string>
+    <string name="set_path">Set path</string>
+    <string name="requested">Wait for taxi. Good luck!</string>
+    <string name="from">Point From</string>
+    <string name="street">Street</string>
+    <string name="house">House</string>
+    <string name="flat">Flat</string>
+    <string name="to">Point To</string>
+    <string name="ok">Ok</string>
+    <string name="call">Call Taxi</string>
+    <string name="not_filled">not all data is filled</string>
+    <string name="path">Taxi will arrive at %s, %s, %s in 5 minutes and take you in %s, %s, %s. If you are agree click Call Taxi</string>
+</resources>
