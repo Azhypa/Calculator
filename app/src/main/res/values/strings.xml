@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MiniShop</string>
+    <string name="show">Show Checked Items</string>
+    <string name="checked">Checked: %d</string>
+    <string name="number">Number: %d</string>
+    <string name="name">Name: %s</string>
+    <string name="price">Price: %d USD</string>
+    <string name="goods">Goods</string>
+    <string name="basket">Basket</string>
+</resources>
