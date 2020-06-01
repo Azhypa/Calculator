@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/xxmm">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/from"
+            android:textSize="@dimen/text_size_x" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/edtFromStreet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/xxm"
+            android:hint="@string/street" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/edtFromHouse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/xxm"
+            android:hint="@string/house" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/edtFromFlat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/xxm"
+            android:hint="@string/flat" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/lllx"
+            android:text="@string/to"
+            android:textSize="@dimen/text_size_x" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/edtToStreet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/xxm"
+            android:hint="@string/street" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/edtToHouse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/xxm"
+            android:hint="@string/house" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/edtToFlat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/xxm"
+            android:hint="@string/flat" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnEnter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/lxxm"
+            android:background="@drawable/shape_button"
+            android:text="@string/ok"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/text_size_x" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
